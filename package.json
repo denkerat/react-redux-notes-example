@@ -1,0 +1,54 @@
+{
+  "name": "pwatest",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.2",
+    "classnames": "^2.2.6",
+    "font-awesome": "^4.7.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-calendar": "^2.16.1",
+    "react-dom": "^16.4.1",
+    "react-fontawesome": "^1.6.1",
+    "react-redux": "^5.0.7",
+    "react-scripts": "^1.1.4",
+    "redux": "^4.0.0",
+    "redux-persist": "^5.10.0",
+    "redux-saga": "^0.16.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "node server/index",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.1",
+    "compression": "^1.7.3",
+    "cors": "^2.8.4",
+    "cross-env": "^5.2.0",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "morgan": "^1.9.0",
+    "node-sass": "^4.9.2",
+    "uuid": "^3.3.2"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">0.25%",
+      "not op_mini all",
+      "ie 11"
+    ]
+  }
+}
