@@ -10,8 +10,12 @@ Simple calendar with notes. It's a PWA-like application, that caches received da
 
 ## Quick start
 
-1. Clone this repo using<br />`git clone https://github.com/denkerat/react-learning-boilerplate.git`
+1. Clone this repo using<br />`git clone https://github.com/denkerat/react-redux-notes-example.git`
 2. Move to the appropriate directory:<br />`cd react-redux-notes-example`<br />
 3. Run `npm install` <br />
-4. Run `npm run server`. Node.js server is accessible on http://localhost:8081
-5. Run `npm start` to see the app at `http://localhost:3000`.*
+4. Run `npm run server`. Node.js server is accessible on `http://localhost:8081`
+5. Run `npm start` to see the app at `http://localhost:3000`.
+
+## License
+
+MIT
